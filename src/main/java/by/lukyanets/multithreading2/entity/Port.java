@@ -1,6 +1,5 @@
 package by.lukyanets.multithreading2.entity;
 
-import by.lukyanets.multithreading2.parser.DataParser;
 import by.lukyanets.multithreading2.reader.DataReader;
 import by.lukyanets.multithreading2.util.Util;
 
@@ -13,13 +12,10 @@ public class Port {
     private final Semaphore portCapacity;
     private final Semaphore availableContainers;
 
-
-    private DataReader reader = new DataReader();
-    private DataParser parser = new DataParser();
-
     private Port() {
-        List<String> reader = this.reader.reader(Util.findAbsolutePath("data.txt"));
-        String s = reader.get(0);
+        DataReader reader = new DataReader();
+        List<String> data = reader.reader(Util.findAbsolutePath("data.txt"));
+        String s = data.get(0);
         String[] split = s.split(" ");
         piers = new Semaphore(Integer.parseInt(split[0]));
         portCapacity = new Semaphore(Integer.parseInt(split[1]));
@@ -38,5 +34,4 @@ public class Port {
                 ", availableContainers=" + availableContainers +
                 '}';
     }
-
 }

@@ -1,6 +1,5 @@
 package by.lukyanets.multithreading2.reader;
 
-import by.lukyanets.multithreading2.exception.ThreadException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -12,7 +11,7 @@ import java.util.List;
 public class DataReader {
     private static final Logger logger = LogManager.getLogger(DataReader.class);
 
-    public List<String> reader(String fileName){
+    public List<String> reader(String fileName) {
         try {
             logger.info("Reading data from file {}", fileName);
             return Files.readAllLines(Paths.get(fileName));
