@@ -1,6 +1,5 @@
 package by.lukyanets.multithreading2.entity;
 
-import by.lukyanets.multithreading2.exception.ThreadException;
 import by.lukyanets.multithreading2.parser.DataParser;
 import by.lukyanets.multithreading2.reader.DataReader;
 import by.lukyanets.multithreading2.util.Util;
@@ -18,12 +17,10 @@ public class Port {
     private DataReader reader = new DataReader();
     private DataParser parser = new DataParser();
 
-    private Port(){
+    private Port() {
         List<String> reader = this.reader.reader(Util.findAbsolutePath("data.txt"));
-        List<List<String>> lists = parser.parse(reader);
-        List<String> portData = lists.get(0);
-        String splitPortData = portData.get(0);
-        String[] split = splitPortData.split(" ");
+        String s = reader.get(0);
+        String[] split = s.split(" ");
         piers = new Semaphore(Integer.parseInt(split[0]));
         portCapacity = new Semaphore(Integer.parseInt(split[1]));
         availableContainers = new Semaphore(Integer.parseInt(split[2]));
@@ -32,4 +29,14 @@ public class Port {
     public static Port getINSTANCE() {
         return INSTANCE;
     }
+
+    @Override
+    public String toString() {
+        return "Port{" +
+                "piers=" + piers +
+                ", portCapacity=" + portCapacity +
+                ", availableContainers=" + availableContainers +
+                '}';
+    }
+
 }
