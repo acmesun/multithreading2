@@ -1,0 +1,18 @@
+2021-05-31 16:16:13,781 INFO b.l.m.r.DataReader [main] Reading data from file C:\Users\User\epam\multithreading2\target\classes\data.txt
+2021-05-31 16:16:13,835 INFO b.l.m.r.DataReader [main] Reading data from file C:\Users\User\epam\multithreading2\target\classes\data.txt
+2021-05-31 16:16:13,852 INFO b.l.m.e.Port [Thread-1] Ship Thread-1 arrived.
+2021-05-31 16:16:13,853 INFO b.l.m.e.Port [Thread-3] Ship Thread-3 arrived.
+2021-05-31 16:16:13,855 INFO b.l.m.e.Port [Thread-3] Ship Thread-3  unloaded with 6
+2021-05-31 16:16:13,855 INFO b.l.m.e.Port [Thread-3] Warehouse is 94
+2021-05-31 16:16:13,855 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 arrived.
+2021-05-31 16:16:13,856 INFO b.l.m.e.Port [Thread-1] Ship Thread-1  unloaded with 2
+2021-05-31 16:16:13,866 INFO b.l.m.e.Port [Thread-2] Ship Thread-2  unloaded with 15
+2021-05-31 16:16:13,850 INFO b.l.m.e.Port [Thread-0] Ship Thread-0 arrived.
+2021-05-31 16:16:13,867 INFO b.l.m.e.Port [Thread-2] Warehouse is 79
+2021-05-31 16:16:13,867 INFO b.l.m.e.Port [Thread-0] Ship Thread-0  unloaded with 5
+2021-05-31 16:16:16,857 INFO b.l.m.e.Port [Thread-3] Ship Thread-3 departed
+2021-05-31 16:16:16,866 INFO b.l.m.e.Port [Thread-1] Warehouse is 81
+2021-05-31 16:16:16,867 INFO b.l.m.e.Port [Thread-1] Ship Thread-1 departed
+2021-05-31 16:16:16,867 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 departed
+2021-05-31 16:16:16,868 INFO b.l.m.e.Port [Thread-0] Warehouse is 86
+2021-05-31 16:16:16,869 INFO b.l.m.e.Port [Thread-0] Ship Thread-0 departed
