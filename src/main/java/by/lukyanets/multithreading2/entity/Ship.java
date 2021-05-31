@@ -8,7 +8,6 @@ public class Ship extends Thread {
         this.onBoard = onBoard;
         this.size = size;
     }
-
     @Override
     public String toString() {
         return "Ship{" +
