@@ -5,7 +5,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Ship extends Thread {
-    private static final Port port = Port.getINSTANCE();
+    private static final Port port = Port.getInstance();
     private final Logger logger = LogManager.getLogger(Ship.class);
 
     private Integer onBoard;
@@ -27,6 +27,7 @@ public class Ship extends Thread {
                 port.load(this.getSize());
             }
         } catch (ThreadException | InterruptedException e) {
+            logger.error("Something wrong! Try again.");
             e.printStackTrace();
         } finally {
             logger.info("Ship {} departed. Ship has {} containers.", Thread.currentThread().getName(), this.getOnBoard());
@@ -44,9 +45,29 @@ public class Ship extends Thread {
 
     @Override
     public String toString() {
-        return "Ship{" +
-                "onBoard=" + onBoard +
-                ", size=" + size +
-                '}';
+        return new StringBuilder()
+                .append("Ship: ")
+                .append("containers on board = ")
+                .append(onBoard)
+                .append(", max size = ")
+                .append(size).toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Ship ship = (Ship) o;
+
+        if (!onBoard.equals(ship.onBoard)) return false;
+        return size.equals(ship.size);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = onBoard.hashCode();
+        result = 31 * result + size.hashCode();
+        return result;
     }
 }

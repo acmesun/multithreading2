@@ -11,7 +11,7 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
 public class Port {
-    private static final Port INSTANCE = new Port();
+    private static final Port instance = new Port();
     private final Logger logger = LogManager.getLogger(Port.class);
     private final Semaphore piers;
     private final Semaphore portCapacity;
@@ -35,8 +35,8 @@ public class Port {
         availableContainers = new Semaphore(Integer.parseInt(split[2]));
     }
 
-    public static Port getINSTANCE() {
-        return INSTANCE;
+    public static Port getInstance() {
+        return instance;
     }
 
     public void arrive() throws ThreadException {
@@ -71,13 +71,15 @@ public class Port {
         }
     }
 
-
     @Override
     public String toString() {
-        return "Port{" +
-                "piers=" + piers +
-                ", portCapacity=" + portCapacity +
-                ", availableContainers=" + availableContainers +
-                '}';
+        return new StringBuilder()
+                .append("Port: ")
+                .append("piers = ")
+                .append(piers)
+                .append(", port capacity = ")
+                .append(portCapacity)
+                .append(", available containers = ")
+                .append(availableContainers).toString();
     }
 }
