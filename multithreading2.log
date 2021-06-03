@@ -16,3 +16,250 @@
 2021-05-31 16:16:16,867 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 departed
 2021-05-31 16:16:16,868 INFO b.l.m.e.Port [Thread-0] Warehouse is 86
 2021-05-31 16:16:16,869 INFO b.l.m.e.Port [Thread-0] Ship Thread-0 departed
+2021-05-31 16:44:17,890 INFO b.l.m.r.DataReader [main] Reading data from file C:\Users\User\epam\multithreading2\target\classes\data.txt
+2021-05-31 16:44:17,940 INFO b.l.m.r.DataReader [main] Reading data from file C:\Users\User\epam\multithreading2\target\classes\data.txt
+2021-05-31 16:44:17,948 INFO b.l.m.e.Ship [Thread-0] Ship Thread-0 is trying to arrive.
+2021-05-31 16:44:17,949 INFO b.l.m.e.Ship [Thread-2] Ship Thread-2 is trying to arrive.
+2021-05-31 16:44:17,949 INFO b.l.m.e.Ship [Thread-3] Ship Thread-3 is trying to arrive.
+2021-05-31 16:44:17,951 INFO b.l.m.e.Port [Thread-3] Ship Thread-3 arrived.
+2021-05-31 16:44:17,951 INFO b.l.m.e.Port [Thread-0] Ship Thread-0 arrived.
+2021-05-31 16:44:17,951 INFO b.l.m.e.Ship [Thread-3] Ship Thread-3 successfully arrived. Ship has 0 containers, max size is 6.
+2021-05-31 16:44:17,952 INFO b.l.m.e.Ship [Thread-0] Ship Thread-0 successfully arrived. Ship has 5 containers, max size is 10.
+2021-05-31 16:44:17,952 INFO b.l.m.e.Ship [Thread-1] Ship Thread-1 is trying to arrive.
+2021-05-31 16:44:17,952 INFO b.l.m.e.Port [Thread-0] Ship Thread-0  unloaded with 5
+2021-05-31 16:44:17,953 INFO b.l.m.e.Port [Thread-3] Ship Thread-3  unloaded with 6
+2021-05-31 16:44:17,953 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 arrived.
+2021-05-31 16:44:17,953 INFO b.l.m.e.Port [Thread-3] Warehouse is 94
+2021-05-31 16:44:17,953 INFO b.l.m.e.Ship [Thread-2] Ship Thread-2 successfully arrived. Ship has 0 containers, max size is 15.
+2021-05-31 16:44:17,954 INFO b.l.m.e.Port [Thread-1] Ship Thread-1 arrived.
+2021-05-31 16:44:17,954 INFO b.l.m.e.Port [Thread-2] Ship Thread-2  unloaded with 15
+2021-05-31 16:44:17,954 INFO b.l.m.e.Ship [Thread-1] Ship Thread-1 successfully arrived. Ship has 2 containers, max size is 8.
+2021-05-31 16:44:17,955 INFO b.l.m.e.Port [Thread-1] Ship Thread-1  unloaded with 2
+2021-05-31 16:44:17,955 INFO b.l.m.e.Port [Thread-2] Warehouse is 79
+2021-05-31 16:44:20,952 INFO b.l.m.e.Port [Thread-0] Warehouse is 84
+2021-05-31 16:44:20,952 INFO b.l.m.e.Ship [Thread-0] Ship Thread-0 departed.
+2021-05-31 16:44:20,953 INFO b.l.m.e.Ship [Thread-3] Ship Thread-3 departed.
+2021-05-31 16:44:20,953 INFO b.l.m.e.Port [Thread-0] Ship Thread-0 departed
+2021-05-31 16:44:20,953 INFO b.l.m.e.Port [Thread-3] Ship Thread-3 departed
+2021-05-31 16:44:20,955 INFO b.l.m.e.Port [Thread-1] Warehouse is 86
+2021-05-31 16:44:20,956 INFO b.l.m.e.Ship [Thread-2] Ship Thread-2 departed.
+2021-05-31 16:44:20,956 INFO b.l.m.e.Ship [Thread-1] Ship Thread-1 departed.
+2021-05-31 16:44:20,956 INFO b.l.m.e.Port [Thread-1] Ship Thread-1 departed
+2021-05-31 16:44:20,956 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 departed
+2021-05-31 16:50:09,220 INFO b.l.m.r.DataReader [main] Reading data from file C:\Users\User\epam\multithreading2\target\classes\data.txt
+2021-05-31 16:50:09,255 INFO b.l.m.r.DataReader [main] Reading data from file C:\Users\User\epam\multithreading2\target\classes\data.txt
+2021-05-31 16:50:09,262 INFO b.l.m.e.Ship [Thread-0] Ship Thread-0 is trying to arrive. Ship has 5 containers, max size is 10.
+2021-05-31 16:50:09,264 INFO b.l.m.e.Ship [Thread-3] Ship Thread-3 is trying to arrive. Ship has 0 containers, max size is 6.
+2021-05-31 16:50:09,265 INFO b.l.m.e.Port [Thread-0] Ship Thread-0 arrived.
+2021-05-31 16:50:09,266 INFO b.l.m.e.Port [Thread-3] Ship Thread-3 arrived.
+2021-05-31 16:50:09,265 INFO b.l.m.e.Ship [Thread-1] Ship Thread-1 is trying to arrive. Ship has 2 containers, max size is 8.
+2021-05-31 16:50:09,264 INFO b.l.m.e.Ship [Thread-2] Ship Thread-2 is trying to arrive. Ship has 0 containers, max size is 15.
+2021-05-31 16:50:09,267 INFO b.l.m.e.Port [Thread-1] Ship Thread-1 arrived.
+2021-05-31 16:50:09,267 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 arrived.
+2021-05-31 16:50:09,268 INFO b.l.m.e.Port [Thread-3] Ship Thread-3  unloaded with 6
+2021-05-31 16:50:09,268 INFO b.l.m.e.Port [Thread-3] Warehouse is 94
+2021-05-31 16:50:09,269 INFO b.l.m.e.Port [Thread-0] Ship Thread-0  unloaded with 5
+2021-05-31 16:50:09,271 INFO b.l.m.e.Port [Thread-1] Ship Thread-1  unloaded with 2
+2021-05-31 16:50:09,271 INFO b.l.m.e.Port [Thread-2] Ship Thread-2  unloaded with 15
+2021-05-31 16:50:09,272 INFO b.l.m.e.Port [Thread-2] Warehouse is 79
+2021-05-31 16:50:12,270 INFO b.l.m.e.Ship [Thread-3] Ship Thread-3 departed. Ship has 0 containers.
+2021-05-31 16:50:12,271 INFO b.l.m.e.Port [Thread-3] Ship Thread-3 departed
+2021-05-31 16:50:12,272 INFO b.l.m.e.Port [Thread-1] Warehouse is 86
+2021-05-31 16:50:12,273 INFO b.l.m.e.Port [Thread-0] Warehouse is 84
+2021-05-31 16:50:12,273 INFO b.l.m.e.Ship [Thread-1] Ship Thread-1 departed. Ship has 2 containers.
+2021-05-31 16:50:12,273 INFO b.l.m.e.Ship [Thread-0] Ship Thread-0 departed. Ship has 5 containers.
+2021-05-31 16:50:12,274 INFO b.l.m.e.Port [Thread-0] Ship Thread-0 departed
+2021-05-31 16:50:12,274 INFO b.l.m.e.Port [Thread-1] Ship Thread-1 departed
+2021-05-31 16:50:12,275 INFO b.l.m.e.Ship [Thread-2] Ship Thread-2 departed. Ship has 0 containers.
+2021-05-31 16:50:12,276 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 departed
+2021-06-01 12:12:06,314 INFO b.l.m.r.DataReader [main] Reading data from file C:\Users\User\epam\multithreading2\target\classes\data.txt
+2021-06-01 12:12:06,379 INFO b.l.m.r.DataReader [main] Reading data from file C:\Users\User\epam\multithreading2\target\classes\data.txt
+2021-06-01 12:12:06,421 INFO b.l.m.e.Ship [Thread-3] Ship Thread-3 is trying to arrive. Ship has 0 containers, max size is 15.
+2021-06-01 12:12:06,423 INFO b.l.m.e.Ship [Thread-2] Ship Thread-2 is trying to arrive. Ship has 2 containers, max size is 8.
+2021-06-01 12:12:06,425 INFO b.l.m.e.Ship [Thread-1] Ship Thread-1 is trying to arrive. Ship has 5 containers, max size is 10.
+2021-06-01 12:12:06,422 INFO b.l.m.e.Ship [Thread-4] Ship Thread-4 is trying to arrive. Ship has 0 containers, max size is 6.
+2021-06-01 12:12:06,426 INFO b.l.m.e.Port [Thread-4] Ship Thread-4 arrived.
+2021-06-01 12:12:06,427 INFO b.l.m.e.Port [Thread-1] Ship Thread-1 arrived.
+2021-06-01 12:12:06,427 INFO b.l.m.e.Port [Thread-4] Ship Thread-4  unloaded with 6
+2021-06-01 12:12:06,427 INFO b.l.m.e.Port [Thread-4] Warehouse is 94
+2021-06-01 12:12:06,427 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 arrived.
+2021-06-01 12:12:06,427 INFO b.l.m.e.Port [Thread-1] Ship Thread-1  unloaded with 5
+2021-06-01 12:12:06,428 INFO b.l.m.e.Port [Thread-2] Ship Thread-2  unloaded with 2
+2021-06-01 12:12:06,428 INFO b.l.m.e.Port [Thread-3] Ship Thread-3 arrived.
+2021-06-01 12:12:06,430 INFO b.l.m.e.Port [Thread-3] Ship Thread-3  unloaded with 15
+2021-06-01 12:12:06,431 INFO b.l.m.e.Port [Thread-3] Warehouse is 79
+2021-06-01 12:12:07,339 INFO b.l.m.e.Port [Timer-0] Ship Timer-0  unloaded with 15
+2021-06-01 12:12:09,428 INFO b.l.m.e.Ship [Thread-4] Ship Thread-4 departed. Ship has 0 containers.
+2021-06-01 12:12:09,428 INFO b.l.m.e.Port [Thread-4] Ship Thread-4 departed
+2021-06-01 12:12:09,429 INFO b.l.m.e.Port [Thread-1] Warehouse is 84
+2021-06-01 12:12:09,429 INFO b.l.m.e.Ship [Thread-1] Ship Thread-1 departed. Ship has 5 containers.
+2021-06-01 12:12:09,429 INFO b.l.m.e.Port [Thread-1] Ship Thread-1 departed
+2021-06-01 12:12:09,430 INFO b.l.m.e.Port [Thread-2] Warehouse is 86
+2021-06-01 12:12:09,430 INFO b.l.m.e.Ship [Thread-2] Ship Thread-2 departed. Ship has 2 containers.
+2021-06-01 12:12:09,430 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 departed
+2021-06-01 12:12:09,432 INFO b.l.m.e.Ship [Thread-3] Ship Thread-3 departed. Ship has 0 containers.
+2021-06-01 12:12:09,432 INFO b.l.m.e.Port [Thread-3] Ship Thread-3 departed
+2021-06-01 12:12:10,342 INFO b.l.m.e.Port [Timer-0] Warehouse is 101
+2021-06-01 12:12:12,339 INFO b.l.m.e.Port [Timer-0] Ship Timer-0  unloaded with 15
+2021-06-01 12:12:15,339 INFO b.l.m.e.Port [Timer-0] Warehouse is 116
+2021-06-01 12:12:17,339 INFO b.l.m.e.Port [Timer-0] Ship Timer-0  unloaded with 15
+2021-06-01 12:12:20,340 INFO b.l.m.e.Port [Timer-0] Warehouse is 131
+2021-06-01 12:12:22,340 INFO b.l.m.e.Port [Timer-0] Ship Timer-0  unloaded with 15
+2021-06-01 12:12:25,340 INFO b.l.m.e.Port [Timer-0] Warehouse is 146
+2021-06-01 12:12:27,340 INFO b.l.m.e.Port [Timer-0] Ship Timer-0  unloaded with 15
+2021-06-01 12:12:30,340 INFO b.l.m.e.Port [Timer-0] Warehouse is 161
+2021-06-01 13:37:23,780 INFO b.l.m.r.DataReader [main] Reading data from file C:\Users\User\epam\multithreading2\target\classes\data.txt
+2021-06-01 13:37:23,815 INFO b.l.m.r.DataReader [main] Reading data from file C:\Users\User\epam\multithreading2\target\classes\data.txt
+2021-06-01 13:37:23,821 INFO b.l.m.e.Ship [Thread-1] Ship Thread-1 is trying to arrive. Ship has 5 containers, max size is 10.
+2021-06-01 13:37:23,823 INFO b.l.m.e.Ship [Thread-3] Ship Thread-3 is trying to arrive. Ship has 0 containers, max size is 15.
+2021-06-01 13:37:23,824 INFO b.l.m.e.Port [Thread-1] Ship Thread-1 arrived.
+2021-06-01 13:37:23,824 INFO b.l.m.e.Port [Thread-3] Ship Thread-3 arrived.
+2021-06-01 13:37:23,824 INFO b.l.m.e.Port [Thread-1] Ship Thread-1  unloaded with 5
+2021-06-01 13:37:23,824 INFO b.l.m.e.Ship [Thread-4] Ship Thread-4 is trying to arrive. Ship has 0 containers, max size is 6.
+2021-06-01 13:37:23,824 INFO b.l.m.e.Port [Thread-3] Ship Thread-3  unloaded with 15
+2021-06-01 13:37:23,825 INFO b.l.m.e.Port [Thread-3] Warehouse is 85
+2021-06-01 13:37:23,823 INFO b.l.m.e.Ship [Thread-2] Ship Thread-2 is trying to arrive. Ship has 2 containers, max size is 8.
+2021-06-01 13:37:23,826 INFO b.l.m.e.Port [Thread-4] Ship Thread-4 arrived.
+2021-06-01 13:37:23,826 INFO b.l.m.e.Port [Thread-4] Ship Thread-4  unloaded with 6
+2021-06-01 13:37:23,826 INFO b.l.m.e.Port [Thread-4] Warehouse is 79
+2021-06-01 13:37:23,828 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 arrived.
+2021-06-01 13:37:23,828 INFO b.l.m.e.Port [Thread-2] Ship Thread-2  unloaded with 2
+2021-06-01 13:37:24,794 INFO b.l.m.e.Port [Timer-0] Ship Timer-0  unloaded with 5
+2021-06-01 13:37:26,825 INFO b.l.m.e.Port [Thread-1] Warehouse is 84
+2021-06-01 13:37:26,826 INFO b.l.m.e.Ship [Thread-3] Ship Thread-3 departed. Ship has 0 containers.
+2021-06-01 13:37:26,826 INFO b.l.m.e.Ship [Thread-1] Ship Thread-1 departed. Ship has 5 containers.
+2021-06-01 13:37:26,827 INFO b.l.m.e.Port [Thread-1] Ship Thread-1 departed
+2021-06-01 13:37:26,827 INFO b.l.m.e.Port [Thread-3] Ship Thread-3 departed
+2021-06-01 13:37:26,829 INFO b.l.m.e.Ship [Thread-4] Ship Thread-4 departed. Ship has 0 containers.
+2021-06-01 13:37:26,829 INFO b.l.m.e.Port [Thread-2] Warehouse is 86
+2021-06-01 13:37:26,830 INFO b.l.m.e.Port [Thread-4] Ship Thread-4 departed
+2021-06-01 13:37:26,830 INFO b.l.m.e.Ship [Thread-2] Ship Thread-2 departed. Ship has 2 containers.
+2021-06-01 13:37:26,831 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 departed
+2021-06-01 13:37:27,796 INFO b.l.m.e.Port [Timer-0] Warehouse is 91
+2021-06-01 13:37:29,795 INFO b.l.m.e.Port [Timer-0] Ship Timer-0  unloaded with 5
+2021-06-01 13:37:32,796 INFO b.l.m.e.Port [Timer-0] Warehouse is 96
+2021-06-01 13:37:34,794 INFO b.l.m.e.Port [Timer-0] Ship Timer-0  unloaded with 5
+2021-06-01 13:37:37,794 INFO b.l.m.e.Port [Timer-0] Warehouse is 101
+2021-06-01 13:37:39,795 INFO b.l.m.e.Port [Timer-0] Ship Timer-0  unloaded with 5
+2021-06-01 13:37:42,796 INFO b.l.m.e.Port [Timer-0] Warehouse is 106
+2021-06-01 13:37:44,795 INFO b.l.m.e.Port [Timer-0] Ship Timer-0  unloaded with 5
+2021-06-01 13:37:47,795 INFO b.l.m.e.Port [Timer-0] Warehouse is 111
+2021-06-01 13:37:49,795 INFO b.l.m.e.Port [Timer-0] Ship Timer-0  unloaded with 5
+2021-06-01 13:38:11,998 INFO b.l.m.r.DataReader [main] Reading data from file C:\Users\User\epam\multithreading2\target\classes\data.txt
+2021-06-01 13:38:12,056 INFO b.l.m.r.DataReader [main] Reading data from file C:\Users\User\epam\multithreading2\target\classes\data.txt
+2021-06-01 13:38:12,073 INFO b.l.m.e.Ship [Thread-1] Ship Thread-1 is trying to arrive. Ship has 5 containers, max size is 10.
+2021-06-01 13:38:12,076 INFO b.l.m.e.Port [Thread-1] Ship Thread-1 arrived.
+2021-06-01 13:38:12,075 INFO b.l.m.e.Ship [Thread-3] Ship Thread-3 is trying to arrive. Ship has 0 containers, max size is 15.
+2021-06-01 13:38:12,077 INFO b.l.m.e.Port [Thread-3] Ship Thread-3 arrived.
+2021-06-01 13:38:12,077 INFO b.l.m.e.Port [Thread-3] Ship Thread-3  unloaded with 15
+2021-06-01 13:38:12,077 INFO b.l.m.e.Ship [Thread-2] Ship Thread-2 is trying to arrive. Ship has 2 containers, max size is 8.
+2021-06-01 13:38:12,078 INFO b.l.m.e.Port [Thread-3] Warehouse is 85
+2021-06-01 13:38:12,079 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 arrived.
+2021-06-01 13:38:12,079 INFO b.l.m.e.Port [Thread-1] Ship Thread-1  unloaded with 5
+2021-06-01 13:38:12,079 INFO b.l.m.e.Port [Thread-2] Ship Thread-2  unloaded with 2
+2021-06-01 13:38:12,079 INFO b.l.m.e.Ship [Thread-4] Ship Thread-4 is trying to arrive. Ship has 0 containers, max size is 6.
+2021-06-01 13:38:12,080 INFO b.l.m.e.Port [Thread-4] Ship Thread-4 arrived.
+2021-06-01 13:38:12,081 INFO b.l.m.e.Port [Thread-4] Ship Thread-4  unloaded with 6
+2021-06-01 13:38:12,081 INFO b.l.m.e.Port [Thread-4] Warehouse is 79
+2021-06-01 13:38:13,012 INFO b.l.m.e.Port [Timer-0] Ship Timer-0  unloaded with 5
+2021-06-01 13:38:13,014 INFO b.l.m.e.Port [Timer-0] Warehouse is 74
+2021-06-01 13:38:15,079 INFO b.l.m.e.Ship [Thread-3] Ship Thread-3 departed. Ship has 0 containers.
+2021-06-01 13:38:15,079 INFO b.l.m.e.Port [Thread-1] Warehouse is 79
+2021-06-01 13:38:15,080 INFO b.l.m.e.Port [Thread-2] Warehouse is 81
+2021-06-01 13:38:15,079 INFO b.l.m.e.Port [Thread-3] Ship Thread-3 departed
+2021-06-01 13:38:15,081 INFO b.l.m.e.Ship [Thread-1] Ship Thread-1 departed. Ship has 5 containers.
+2021-06-01 13:38:15,081 INFO b.l.m.e.Ship [Thread-2] Ship Thread-2 departed. Ship has 2 containers.
+2021-06-01 13:38:15,081 INFO b.l.m.e.Port [Thread-1] Ship Thread-1 departed
+2021-06-01 13:38:15,083 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 departed
+2021-06-01 13:38:15,084 INFO b.l.m.e.Ship [Thread-4] Ship Thread-4 departed. Ship has 0 containers.
+2021-06-01 13:38:15,085 INFO b.l.m.e.Port [Thread-4] Ship Thread-4 departed
+2021-06-01 13:38:18,012 INFO b.l.m.e.Port [Timer-0] Ship Timer-0  unloaded with 5
+2021-06-01 13:38:18,013 INFO b.l.m.e.Port [Timer-0] Warehouse is 76
+2021-06-01 13:38:23,013 INFO b.l.m.e.Port [Timer-0] Ship Timer-0  unloaded with 5
+2021-06-01 13:38:23,013 INFO b.l.m.e.Port [Timer-0] Warehouse is 71
+2021-06-01 13:38:28,014 INFO b.l.m.e.Port [Timer-0] Ship Timer-0  unloaded with 5
+2021-06-01 13:38:28,014 INFO b.l.m.e.Port [Timer-0] Warehouse is 66
+2021-06-01 13:38:33,015 INFO b.l.m.e.Port [Timer-0] Ship Timer-0  unloaded with 5
+2021-06-01 13:38:33,016 INFO b.l.m.e.Port [Timer-0] Warehouse is 61
+2021-06-01 13:38:38,016 INFO b.l.m.e.Port [Timer-0] Ship Timer-0  unloaded with 5
+2021-06-01 13:38:38,016 INFO b.l.m.e.Port [Timer-0] Warehouse is 56
+2021-06-01 13:39:35,457 INFO b.l.m.r.DataReader [main] Reading data from file C:\Users\User\epam\multithreading2\target\classes\data.txt
+2021-06-01 13:39:35,513 INFO b.l.m.r.DataReader [main] Reading data from file C:\Users\User\epam\multithreading2\target\classes\data.txt
+2021-06-01 13:39:35,541 INFO b.l.m.e.Ship [Thread-1] Ship Thread-1 is trying to arrive. Ship has 5 containers, max size is 10.
+2021-06-01 13:39:35,544 INFO b.l.m.e.Ship [Thread-3] Ship Thread-3 is trying to arrive. Ship has 0 containers, max size is 15.
+2021-06-01 13:39:35,544 INFO b.l.m.e.Ship [Thread-2] Ship Thread-2 is trying to arrive. Ship has 2 containers, max size is 8.
+2021-06-01 13:39:35,546 INFO b.l.m.e.Port [Thread-3] Ship Thread-3 arrived.
+2021-06-01 13:39:35,546 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 arrived.
+2021-06-01 13:39:35,543 INFO b.l.m.e.Ship [Thread-4] Ship Thread-4 is trying to arrive. Ship has 0 containers, max size is 6.
+2021-06-01 13:39:35,546 INFO b.l.m.e.Port [Thread-2] Ship Thread-2  unloaded with 2
+2021-06-01 13:39:35,547 INFO b.l.m.e.Port [Thread-1] Ship Thread-1 arrived.
+2021-06-01 13:39:35,547 INFO b.l.m.e.Port [Thread-3] Ship Thread-3  unloaded with 15
+2021-06-01 13:39:35,547 INFO b.l.m.e.Port [Thread-4] Ship Thread-4 arrived.
+2021-06-01 13:39:35,547 INFO b.l.m.e.Port [Thread-1] Ship Thread-1  unloaded with 5
+2021-06-01 13:39:35,547 INFO b.l.m.e.Port [Thread-4] Ship Thread-4  unloaded with 6
+2021-06-01 13:39:35,548 INFO b.l.m.e.Port [Thread-4] Warehouse is 79
+2021-06-01 13:39:35,548 INFO b.l.m.e.Port [Thread-3] Warehouse is 79
+2021-06-01 13:39:36,469 INFO b.l.m.e.Port [Timer-0] Ship Timer-0  unloaded with 5
+2021-06-01 13:39:36,470 INFO b.l.m.e.Port [Timer-0] Warehouse is 74
+2021-06-01 13:39:38,547 INFO b.l.m.e.Port [Thread-2] Warehouse is 76
+2021-06-01 13:39:38,548 INFO b.l.m.e.Ship [Thread-2] Ship Thread-2 departed. Ship has 2 containers.
+2021-06-01 13:39:38,548 INFO b.l.m.e.Port [Thread-1] Warehouse is 81
+2021-06-01 13:39:38,549 INFO b.l.m.e.Ship [Thread-1] Ship Thread-1 departed. Ship has 5 containers.
+2021-06-01 13:39:38,549 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 departed
+2021-06-01 13:39:38,550 INFO b.l.m.e.Port [Thread-1] Ship Thread-1 departed
+2021-06-01 13:39:38,550 INFO b.l.m.e.Ship [Thread-4] Ship Thread-4 departed. Ship has 0 containers.
+2021-06-01 13:39:38,550 INFO b.l.m.e.Ship [Thread-3] Ship Thread-3 departed. Ship has 0 containers.
+2021-06-01 13:39:38,551 INFO b.l.m.e.Port [Thread-4] Ship Thread-4 departed
+2021-06-01 13:39:38,551 INFO b.l.m.e.Port [Thread-3] Ship Thread-3 departed
+2021-06-01 13:45:16,685 INFO b.l.m.r.DataReader [main] Reading data from file C:\Users\User\epam\multithreading2\target\classes\data.txt
+2021-06-01 13:45:16,719 INFO b.l.m.r.DataReader [main] Reading data from file C:\Users\User\epam\multithreading2\target\classes\data.txt
+2021-06-01 13:45:16,728 INFO b.l.m.e.Ship [Thread-2] Ship Thread-2 is trying to arrive. Ship has 2 containers, max size is 8.
+2021-06-01 13:45:16,728 INFO b.l.m.e.Ship [Thread-1] Ship Thread-1 is trying to arrive. Ship has 5 containers, max size is 10.
+2021-06-01 13:45:16,730 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 arrived.
+2021-06-01 13:45:16,730 INFO b.l.m.e.Ship [Thread-3] Ship Thread-3 is trying to arrive. Ship has 0 containers, max size is 15.
+2021-06-01 13:45:16,731 INFO b.l.m.e.Port [Thread-2] Ship Thread-2  unloaded with 2
+2021-06-01 13:45:16,732 INFO b.l.m.e.Port [Thread-3] Ship Thread-3 arrived.
+2021-06-01 13:45:16,732 INFO b.l.m.e.Port [Thread-1] Ship Thread-1 arrived.
+2021-06-01 13:45:16,733 INFO b.l.m.e.Port [Thread-1] Ship Thread-1  unloaded with 5
+2021-06-01 13:45:16,733 INFO b.l.m.e.Ship [Thread-4] Ship Thread-4 is trying to arrive. Ship has 0 containers, max size is 6.
+2021-06-01 13:45:16,735 INFO b.l.m.e.Port [Thread-4] Ship Thread-4 arrived.
+2021-06-01 13:45:16,735 INFO b.l.m.e.Port [Thread-3] Ship Thread-3  unloaded with 15
+2021-06-01 13:45:16,736 INFO b.l.m.e.Port [Thread-4] Ship Thread-4  unloaded with 6
+2021-06-01 13:45:16,736 INFO b.l.m.e.Port [Thread-4] Warehouse is 79
+2021-06-01 13:45:16,736 INFO b.l.m.e.Port [Thread-3] Warehouse is 79
+2021-06-01 13:45:19,731 INFO b.l.m.e.Port [Thread-2] Warehouse is 81
+2021-06-01 13:45:19,732 INFO b.l.m.e.Ship [Thread-2] Ship Thread-2 departed. Ship has 2 containers.
+2021-06-01 13:45:19,733 INFO b.l.m.e.Port [Thread-1] Warehouse is 86
+2021-06-01 13:45:19,733 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 departed
+2021-06-01 13:45:19,734 INFO b.l.m.e.Ship [Thread-1] Ship Thread-1 departed. Ship has 5 containers.
+2021-06-01 13:45:19,735 INFO b.l.m.e.Port [Thread-1] Ship Thread-1 departed
+2021-06-01 13:45:19,737 INFO b.l.m.e.Ship [Thread-3] Ship Thread-3 departed. Ship has 0 containers.
+2021-06-01 13:45:19,737 INFO b.l.m.e.Ship [Thread-4] Ship Thread-4 departed. Ship has 0 containers.
+2021-06-01 13:45:19,738 INFO b.l.m.e.Port [Thread-4] Ship Thread-4 departed
+2021-06-01 13:45:19,738 INFO b.l.m.e.Port [Thread-3] Ship Thread-3 departed
+2021-06-01 13:50:25,019 INFO b.l.m.r.DataReader [main] Reading data from file C:\Users\User\epam\multithreading2\target\classes\data.txt
+2021-06-01 13:50:25,057 INFO b.l.m.r.DataReader [main] Reading data from file C:\Users\User\epam\multithreading2\target\classes\data.txt
+2021-06-01 13:50:25,066 INFO b.l.m.e.Ship [Thread-1] Ship Thread-1 is trying to arrive. Ship has 5 containers, max size is 10.
+2021-06-01 13:50:25,067 INFO b.l.m.e.Ship [Thread-3] Ship Thread-3 is trying to arrive. Ship has 0 containers, max size is 15.
+2021-06-01 13:50:25,066 INFO b.l.m.e.Ship [Thread-2] Ship Thread-2 is trying to arrive. Ship has 2 containers, max size is 8.
+2021-06-01 13:50:25,069 INFO b.l.m.e.Port [Thread-3] Ship Thread-3 arrived.
+2021-06-01 13:50:25,069 INFO b.l.m.e.Port [Thread-3] Ship Thread-3  unloaded with 15
+2021-06-01 13:50:25,070 INFO b.l.m.e.Port [Thread-3] Warehouse is 85
+2021-06-01 13:50:25,071 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 arrived.
+2021-06-01 13:50:25,071 INFO b.l.m.e.Port [Thread-1] Ship Thread-1 arrived.
+2021-06-01 13:50:25,071 INFO b.l.m.e.Ship [Thread-4] Ship Thread-4 is trying to arrive. Ship has 0 containers, max size is 6.
+2021-06-01 13:50:25,072 INFO b.l.m.e.Port [Thread-1] Ship Thread-1  unloaded with 5
+2021-06-01 13:50:25,073 INFO b.l.m.e.Port [Thread-4] Ship Thread-4 arrived.
+2021-06-01 13:50:25,073 INFO b.l.m.e.Port [Thread-2] Ship Thread-2  unloaded with 2
+2021-06-01 13:50:25,074 INFO b.l.m.e.Port [Thread-4] Ship Thread-4  unloaded with 6
+2021-06-01 13:50:25,074 INFO b.l.m.e.Port [Thread-4] Warehouse is 79
+2021-06-01 13:50:28,070 INFO b.l.m.e.Ship [Thread-3] Ship Thread-3 departed. Ship has 0 containers.
+2021-06-01 13:50:28,071 INFO b.l.m.e.Port [Thread-3] Ship Thread-3 departed
+2021-06-01 13:50:28,072 INFO b.l.m.e.Port [Thread-1] Warehouse is 84
+2021-06-01 13:50:28,073 INFO b.l.m.e.Ship [Thread-1] Ship Thread-1 departed. Ship has 5 containers.
+2021-06-01 13:50:28,073 INFO b.l.m.e.Port [Thread-2] Warehouse is 86
+2021-06-01 13:50:28,073 INFO b.l.m.e.Port [Thread-1] Ship Thread-1 departed
+2021-06-01 13:50:28,074 INFO b.l.m.e.Ship [Thread-2] Ship Thread-2 departed. Ship has 2 containers.
+2021-06-01 13:50:28,074 INFO b.l.m.e.Ship [Thread-4] Ship Thread-4 departed. Ship has 0 containers.
+2021-06-01 13:50:28,075 INFO b.l.m.e.Port [Thread-4] Ship Thread-4 departed
+2021-06-01 13:50:28,075 INFO b.l.m.e.Port [Thread-2] Ship Thread-2 departed

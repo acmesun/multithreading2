@@ -17,6 +17,14 @@ public class Port {
     private final Semaphore portCapacity;
     private final Semaphore availableContainers;
 
+    public Semaphore getPortCapacity() {
+        return portCapacity;
+    }
+
+    public Semaphore getAvailableContainers() {
+        return availableContainers;
+    }
+
     private Port() {
         DataReader reader = new DataReader();
         List<String> data = reader.reader(Util.findAbsolutePath("data.txt"));
